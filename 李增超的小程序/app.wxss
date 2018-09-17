@@ -1,0 +1,17 @@
+/**app.wxss**/
+view, button, text, form {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  line-height: 1.4;
+  border-radius: 0;
+}
+
+view:after, button:after, text:after, form:after {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}

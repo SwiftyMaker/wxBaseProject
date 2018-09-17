@@ -1,0 +1,6 @@
+<!--components/lzc-view/lzc-view.wxml-->
+<form bindsubmit="formSubmit" report-submit data-cmd='{{cmd}}' data-value='{{value}}'>
+  <button open-type='{{openType ? "getUserInfo" : "custom"}}' bindgetuserinfo='bindgetuserinfo' form-type='{{openType ? "custom" : "submit"}}'>
+    <slot></slot>
+  </button>
+</form>
