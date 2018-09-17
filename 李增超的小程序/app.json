@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

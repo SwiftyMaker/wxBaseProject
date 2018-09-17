@@ -4,3 +4,8 @@
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
 </view>
+
+
+<lzc-icon type='warning' size='90' color='red'>
+</lzc-icon>
+
